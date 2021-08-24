@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Nav() {
   const categories = [
     {
@@ -14,6 +15,7 @@ function Nav() {
       description: "Fields, farmhouses, waterfalls, and the beauty of nature",
     },
   ];
+  
   function categorySelected(name) {
     console.log(`${name} clicked`);
   }
