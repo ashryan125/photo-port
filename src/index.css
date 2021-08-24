@@ -93,6 +93,9 @@ a:hover {
 
 header {
   background: var(--dark);
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
 }
 
 header a {
