@@ -33,7 +33,7 @@ function Nav(props) {
               href="#about"
               onClick={() => setContactSelected(false)}
             >
-              About
+              About me
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && "navActive"}`}>
